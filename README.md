@@ -1,4 +1,4 @@
-# Data Sceince Projects
+# Data Science Projects
 
 In the Repo you can find some data science projects. 
 
