@@ -9,7 +9,9 @@ In the Repo you can find some data science projects.
 - Logistic Regression : Titanic data - Predicting the passegners who survived/not survived the disaster
 - KNN : classified data - predict class for new data points using KNN
 - Decision Trees : Decision Trees and Random Forests in Python on Kyphosis patients
-- K-Means : Clustering with made up data.
+- K-Means : Clustering with made up data
+- NLP : NLP with text data
+- Deep learning : Deep Learning with Fake data with two features
 
 ### TODO 
 - Data Analytics on Finance data
