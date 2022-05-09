@@ -15,8 +15,7 @@ The data is in data/kyphosis.csv
 ## Tech Stack
 - **Python modlues**: pandas, numpy, seaborn, sklearn and matplotlib.
 - **SK Learn Modlues**: RandomForestClassifier and DecisionTreeClassifier
-- **Plots**: pairplot(), lmplot(), heatmap() and clustermap()
-
+- **Plots**: pairplot()
 
 ## dataInfo
 * Age is in months
