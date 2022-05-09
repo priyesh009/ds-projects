@@ -1,6 +1,6 @@
 # Data Science Projects
 
-In the Repo you can find some data science projects. 
+In the Repo you can find some small-scale data science projects. 
 
 ## Projects
 - Data analytics on 911 Calls data using pandas and seaborn
@@ -13,8 +13,8 @@ In the Repo you can find some data science projects.
 - NLP : NLP with text data
 - Deep learning : Deep Learning with Fake data with two features
 
-### TODO 
+### Upcoming 
 - Data Analytics on Finance data
-- Logistic Regression: Advertising Data
-- KNN : Another classified data project
+- Logistic Regression: Logistic Regression on Advertising Data
+- KNN : KNN concepts on classified data
 - K-Means : Use K-Means to cluster universities into two group, Private and Public
