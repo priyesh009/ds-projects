@@ -10,7 +10,7 @@ In this Repo you can find some small-scale data science projects.
 - KNN : classified data - predict class for new data points using KNN
 - Decision Trees : Decision Trees and Random Forests in Python on Kyphosis patients
 - K-Means : Clustering with made up data
-
+- NLP : NLP to detect spam text
 
 ### Upcoming 
 - Data Analytics on Finance data
