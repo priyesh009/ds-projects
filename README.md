@@ -18,4 +18,4 @@ In this Repo you can find some small-scale data science projects.
 - KNN : KNN concepts on classified data
 - K-Means : Use K-Means to cluster universities into two group, Private and Public
 - NLP : NLP with text data
-- Deep learning : Deep Learning with Fake data with two features
+- Deep learning : Deep Learning with Fake data with two features.s
