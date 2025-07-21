@@ -1,3 +1,5 @@
+gen_ai/my_env/
 *.pyc
 *.vscode
 *.ipynb_checkpoints
+.DS_Store
