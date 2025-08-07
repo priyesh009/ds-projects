@@ -202,7 +202,8 @@ st.sidebar.header("🔧 Controls")
 # Data source selection
 data_source = st.sidebar.radio(
     "Choose data source:",
-    ["Generated Sample", "Manual Input", "Upload CSV"]
+    #["Generated Sample", "Manual Input", "Upload CSV"]
+    ["Generated Sample"]
 )
 
 # Model parameters
