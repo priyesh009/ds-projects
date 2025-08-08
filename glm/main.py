@@ -14,7 +14,7 @@ st.subheader("🔵 Poisson Distribution")
 st.markdown("""
 Used for modeling **count data**, the Poisson distribution is essential when events occur **independently** and at a **constant average rate**.
 
-👉 [Launch Poisson App](https://poisson.streamlit.app/)
+👉 [Launch Poisson App](https://possion.streamlit.app/)
 """)
 
 # Gamma (placeholder)
