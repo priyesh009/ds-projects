@@ -70,7 +70,7 @@ def generate_poisson_data(data_type="insurance_claims", seed=None):
     
     if data_type == "insurance_claims":
         # Number of claims (x-axis) vs probability of occurrence (y-axis)
-        lambda_param = 2.5  # Average number of claims
+        lambda_param = 0.058 # Average number of claims
         max_claims = 10
         
         # Generate theoretical probabilities for each number of claims
@@ -78,7 +78,7 @@ def generate_poisson_data(data_type="insurance_claims", seed=None):
         y_theoretical = stats.poisson.pmf(X, lambda_param)  # Theoretical probabilities
         
         # Add some noise to simulate observed data
-        noise_factor = 0.15
+        noise_factor = 0.005
         y = y_theoretical + np.random.normal(0, noise_factor * y_theoretical.max(), len(X))
         y = np.maximum(y, 0)  # Ensure non-negative probabilities
         
@@ -228,7 +228,7 @@ if data_source == "Generated Sample":
             "customer_purchases"
         ],
         format_func=lambda x: {
-            "insurance_claims": "📋 Insurance Claims by Count",
+            "insurance_claims": "📋 Home Insurance Claims by Count",
             "hospital_visits": "🏥 Hospital Visits Distribution", 
             "defect_counts": "🏭 Manufacturing Defects",
             "website_clicks": "💻 Website Click Distribution",
@@ -449,9 +449,9 @@ with col2:
         st.markdown("""
         **Poisson distributions model count events:**
         
-        📋 **Insurance Claims**: Claims per policy per year
-        - λ ≈ 2.5 means average 2-3 claims annually
-        - P(0 claims) ≈ 0.08, P(1 claim) ≈ 0.21
+        📋 **Home Insurance Claims**: Claims per policy per year
+        - λ ≈ 0.058 means average 0.05-0.06 claims per policy
+        - P(0 claims) ≈ 0.94, P(1 claim) ≈ 0.055
         
         🏥 **Healthcare**: Hospital visits per patient
         - λ ≈ 1.8 for patients with chronic conditions
