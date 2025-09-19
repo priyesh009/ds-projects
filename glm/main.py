@@ -22,7 +22,7 @@ st.subheader("🟣 Gamma Distribution")
 st.markdown("""
 The Gamma distribution models **positive continuous data**, often used in **insurance claims**, **waiting times**, and **survival analysis**.
 
-👉 *(Coming Soon)*  
+👉 [Launch Gamma App](https://gammaa.streamlit.app/)
 """)
 
 # Tweedie (placeholder)
@@ -30,7 +30,7 @@ st.subheader("🟠 Tweedie Distribution")
 st.markdown("""
 Tweedie is a versatile distribution that covers **compound Poisson-Gamma models**, great for insurance severity/frequency models.
 
-👉 *(Coming Soon)*  
+👉 [Launch Tweedie App](https://tweedie.streamlit.app/)
 """)
 
 st.info("More distributions and interactive apps coming soon. Stay tuned!")
